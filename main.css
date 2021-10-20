@@ -109,7 +109,7 @@ img {
 
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -162,6 +162,10 @@ img {
   font-weight: 200;
   font-style: italic;
   color: var(--main-red);
+}
+
+.welcome-img {
+  border-radius: 25%;
 }
 
 /* Projects section */
