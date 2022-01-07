@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="html-styling" lang="en">
+    <head>
+        <title>BB Portfolio</title>
+        <link rel="stylesheet" href="main.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- BEGINNING HEADER CONTENT -->
+        <header>
+            <p style="text-align:center;">Under development....</p>
+            <!-- START NAV -->
+            <nav id="home" class="topnav">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <img id="logo" src="logo.png" alt="logo">
+            <!-- END NAV -->
+        </header>
+        <!-- END HEADER CONTENT -->
+
+        <!-- START MAIN CONTENT -->
+        <main>
+            <!-- START WELCOME SECTION -->
+            <section id="about" class="about">
+                <pre>-----------------------------------------</pre>
+                <p style="font-size: 25px;"><strong>Hi!</strong><p>
+                <p>I am <u>Bjørnar</u> &#128526; <p>
+                <img id="profile-photo" src="profile_photo.jpg" alt="profile photo">
+                <p>I am an IT student that have a big interests in <u>CYBER SECURITY</u> & <u>HACKING</u> &#128187; </p>
+                <pre>-----------------------------------------</pre>
+                <p>Experience</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Linux</li>
+                    <li>MySQL/PostgreSQL</li>
+                    <li>HTML/CSS</li>
+                    <li>Machine Learning</li>
+                    <li>Java</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Visual Paradigm</li>
+                    <li>Information Security</li>
+                    <li>System Development</li>
+                    <li>E-Marketing</li>
+                    <li>Leadership</li>
+                    <li>Information Systems</li>
+                </ul>
+                <pre>-----------------------------------------</pre>
+                <p>Hobbies</p>
+                <ul>
+                    <li>Running</li>
+                    <li>Chess</li>
+                    <li>Yoga</li>
+                    <li>Animals</li>
+                    <li>Food</li>
+                    <li>Bicycling</li>
+                </ul>
+                <pre>-----------------------------------------</pre>
+            </section>            
+            <!-- END WELCOME SECTION -->
+
+            <!-- START PROJECTS SECTION -->
+
+            
+            <!-- END PROJECTS SECTION -->
+            <!-- START CONTACT SECTION -->
+            
+            <!-- END CONTACT SECTION -->
+        </main>
+        <!-- END MAIN CONTENT -->
+
+        <!-- START FOOTER CONTENT -->
+        <footer>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Press me to go to the top again &#128540;</button>
+
+            <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+            </script>
+        </footer>
+        <!-- END OF FOOTER CONTENT -->
+
+    </body>
+</html>
