@@ -58,20 +58,30 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 250px;
 }
 
-li {
+ul > li {
   font-style: italic;
   font-size: 12px;
-}
-
-ul {
   list-style-type: none;
-  display: table; 
-  margin: 0 auto;
+  display: table;
+  margin-left: 40%;
+  margin-right: 60%;
   text-align: left;
 }
+
+@media screen and (max-width: 800px) {
+  ul > li {
+    font-style: italic;
+    font-size: 12px;
+    list-style-type: none;
+    display: table;
+    margin-left: 20%;
+    margin-right: 80%;
+    text-align: left;
+  }
+  }
 
 #myBtn {
   display: none;
