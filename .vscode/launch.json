@@ -9,6 +9,12 @@
             "request": "launch",
             "name": "Open main.html",
             "file": "c:\\Users\\privb\\OneDrive\\Programmering\\Kurs\\FreeCodeCamp\\1. HTML & CSS\\Build a Personal Portfolio Webpage\\build-a-personal-portfolio-webpage\\main.html"
+        },
+        {
+            "name": "Launch Microsoft Edge and open the Edge DevTools",
+            "request": "launch",
+            "type": "vscode-edge-devtools.debug",
+            "url": "" // Provide your project's url to finish configuring
         }
     ]
 }
