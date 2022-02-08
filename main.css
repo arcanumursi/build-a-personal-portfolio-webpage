@@ -1,6 +1,11 @@
 html {
   font-family: monospace;
   scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+p {
+  text-align: center;
 }
 
 /* Add a black background color to the top navigation */
@@ -13,6 +18,13 @@ html {
   transform: translate(-50%, -50%);
 }
 
+#hi-title {
+  font-size:25px;
+}
+
+section {
+  height: 100vh;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -81,7 +93,7 @@ ul > li {
     margin-right: 80%;
     text-align: left;
   }
-  }
+}
 
 #myBtn {
   display: none;
