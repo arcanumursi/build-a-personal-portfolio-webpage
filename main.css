@@ -60,10 +60,20 @@ section {
   }
 }
 
-.welcome-section {
+#welcome-section {
   text-align: center;
   margin-top: 800px;
   font-size: 14px;
+}
+
+#projects {
+  text-align: center;
+  margin-top: 1200px;
+  font-size: 14px;
+}
+
+.project-tile {
+  margin-top: 80px;;
 }
 
 #profile-photo {
