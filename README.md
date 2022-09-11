@@ -15,8 +15,6 @@ User Stories:
 11. The navbar should always be at the top of the viewport
 12. Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
-
 <h2> Preview: </h2>
 
 ![alt text](https://github.com/bbbuhtig/build-a-personal-portfolio-webpage/blob/main/preview1.png?raw=true)
